@@ -13,7 +13,7 @@ class PostController
 
         if ($title) {
             $title = htmlspecialchars($title, ENT_QUOTES|ENT_HTML5, 'UTF-8', true);
-            if (strlen($firstName) < 2) {
+            if (strlen($title) < 2) {
                 $errors['titleShort'] = 'title is too short';
             }
         } else {
@@ -35,8 +35,8 @@ class PostController
             exit();
         }
         return [
-            'title' => $firstName,
-            'content' => $lastName,
+            'title' => $title,
+            'content' => $content,
         ];
     }
 
