@@ -1,14 +1,14 @@
-.users-form {
+.posts-form {
     max-width: 600px;
 }
 
-.user-container {
+.post-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.user {
+.post {
     font-weight: 500;
 }
 
@@ -25,7 +25,7 @@
 }
 
 
-#delete-user-container {
+#delete-post-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@
     max-width: 200px;
 }
 
-#users-data {
+#posts-data {
     display: block;
 }
 
