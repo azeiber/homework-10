@@ -9,3 +9,5 @@ security risk.
 4. What is SQL injection? A SQL injection hack is when a hacker tries to run 
 malicious sql code in a database.
 5. What are prepared statements? How can we pass variables to a prepared statement?
+Prepared statements allow SQL queries to be more secure and efficient. They are
+passed by using preparation (adding placeholders) and then execution.
